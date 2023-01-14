@@ -21,7 +21,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .logo {
@@ -34,6 +34,16 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 34px;
+}
+
+.small-dev {
+    display: none;
+}
+
+.nav-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* banner part style */
@@ -210,7 +220,8 @@ footer {
 
 /* small device responsive*/
 @media screen and (max-width:576px) {
-    header {
+
+    /* header {
         flex-direction: column;
     }
 
@@ -219,6 +230,13 @@ footer {
         align-items: center;
         gap: 20px;
         margin-top: 24px;
+    } */
+    header {
+        display: none;
+    }
+
+    .small-dev {
+        display: block;
     }
 
     .banner {
