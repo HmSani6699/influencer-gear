@@ -69,7 +69,90 @@ nav ul {
     background-size: cover;
 }
 
-/* small device */
+.banner-img img {
+    /* width: 104px; */
+}
+
+
+/* company logos style */
+.logo-container {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* card section */
+
+.card-section {
+    margin-top: 100px;
+}
+
+.card-section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.card-tk {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.card-star {
+    color: #FB8200;
+}
+
+.card-reng {
+    color: #5E6366;
+    margin-left: 10px;
+}
+
+.card-description {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+}
+
+
+
+/* small device responsive*/
 @media screen and (max-width:576px) {
     header {
         flex-direction: column;
@@ -100,9 +183,23 @@ nav ul {
         width: 103%;
     }
 
+    /* card */
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
 }
 
-/* medium device */
+/* medium device responsive*/
 @media screen and (min-width:577px) and (max-width:768px) {
     .banner {
         flex-direction: column-reverse;
@@ -118,8 +215,55 @@ nav ul {
     }
 
     .banner-img img {
+        width: 105%;
+    }
+
+    /* card */
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card img {
         width: 100%;
     }
 
+}
 
+/* large devise responsive*/
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    .banner-title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .banner-img img {
+        width: 104%;
+    }
+
+    /* card */
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card img {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .banner-img img {
+        width: 104%;
+    }
 }
