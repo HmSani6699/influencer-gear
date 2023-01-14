@@ -88,15 +88,15 @@ nav ul {
 
     .banner-info {
         text-align: center;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .banner-title {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .banner-img img {
-        width: 100%;
+        width: 105%;
     }
 
 }
