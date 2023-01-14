@@ -92,7 +92,8 @@ nav ul {
     }
 
     .banner-title {
-        font-size: 35px;
+        font-size: 34px;
+        line-height: 58px;
     }
 
     .banner-img img {
