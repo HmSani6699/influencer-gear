@@ -69,25 +69,25 @@ nav ul {
     background-size: cover;
 }
 
-.banner-img img {
-    /* width: 104px; */
-}
-
-
 /* company logos style */
 .logo-container {
-    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
+    padding: 20px 0;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(to right, white, gray, white) 70 stretch;
+
 }
 
 .logos {
     display: flex;
-    gap: 50px;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .logo {
@@ -95,7 +95,6 @@ nav ul {
     align-items: center;
     justify-content: center;
 }
-
 
 /* card section */
 
@@ -150,7 +149,42 @@ nav ul {
     line-height: 143%;
 }
 
+.more-btn {
+    border: none;
+    margin-top: 50px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 92%;
+    color: rgba(224, 44, 109, 0.87);
+    background: white;
+}
 
+
+/*  Featured products at one place  section style*/
+.featured-products-section {
+    display: flex;
+    margin-top: 100px;
+}
+
+.featured-info {
+    padding-left: 50px;
+}
+
+.featurd-title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+}
+
+.footerd-btn {
+    background: #E02C6D;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 26px;
+}
 
 /* small device responsive*/
 @media screen and (max-width:576px) {
@@ -181,6 +215,11 @@ nav ul {
 
     .banner-img img {
         width: 103%;
+    }
+
+    /* logo */
+    .logo {
+        gap: 30px;
     }
 
     /* card */
