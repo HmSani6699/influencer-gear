@@ -220,17 +220,6 @@ footer {
 
 /* small device responsive*/
 @media screen and (max-width:576px) {
-
-    /* header {
-        flex-direction: column;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        margin-top: 24px;
-    } */
     header {
         display: none;
     }
@@ -258,8 +247,8 @@ footer {
     }
 
     /* logo */
-    .logo {
-        gap: 30px;
+    .logos {
+        gap: 15px;
     }
 
     /* card */
