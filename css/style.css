@@ -95,6 +95,10 @@ nav ul {
         font-size: 45px;
     }
 
+    .banner-img img {
+        width: 100%;
+    }
+
 }
 
 /* medium device */
@@ -111,5 +115,10 @@ nav ul {
     .banner-title {
         font-size: 45px;
     }
+
+    .banner-img img {
+        width: 100%;
+    }
+
 
 }
